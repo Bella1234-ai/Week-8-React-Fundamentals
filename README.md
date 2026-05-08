@@ -165,16 +165,19 @@ Time Investment:
 
 ## Challenges Faced
 What problems did you encounter and how did you solve them?
-it said server not found after i did everything right
-Challenge 1: State Management
+- it said server not found after i did everything right
+  
+### Challenge 1: State Management
 
 Problem: Managing posts array across multiple components
 Solution: Lifted state to App.jsx, passed handlers as props
-Challenge 2: Component Communication
+
+###Challenge 2: Component Communication
 
 Problem: Post deletion required updating parent state
 Solution: Implemented callback functions passed from parent to child
-Challenge 3: Search Functionality
+
+### Challenge 3: Search Functionality
 
 Problem: Real-time filtering without external libraries
 Solution: Used useState and array filter metho
